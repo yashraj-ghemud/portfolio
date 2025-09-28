@@ -24,3 +24,43 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+
+
+/* Smooth fonts */
+html { 
+  scroll-behavior: smooth;
+}
+
+/* Custom glow animations */
+@keyframes borderGlow {
+  0% { 
+    filter: hue-rotate(0deg) brightness(1);
+    box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.3);
+  }
+  50% { 
+    filter: hue-rotate(90deg) brightness(1.2);
+    box-shadow: inset 0 0 40px rgba(255, 215, 0, 0.6);
+  }
+  100% { 
+    filter: hue-rotate(180deg) brightness(1);
+    box-shadow: inset 0 0 20px rgba(255, 215, 0, 0.3);
+  }
+}
+
+/* Particle animations */
+@keyframes particle-float {
+  0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(-10px) rotate(360deg); opacity: 0; }
+}
+
+/* Text glow effect */
+.text-glow {
+  text-shadow: 
+    0 0 5px currentColor,
+    0 0 10px currentColor,
+    0 0 15px currentColor,
+    0 0 20px currentColor;
+}
