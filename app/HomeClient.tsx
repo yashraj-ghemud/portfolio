@@ -619,7 +619,7 @@ export default function HomeClient() {
               textShadow: "0 0 10px rgba(255, 255, 255, 0.3)"
             }}
           >
-            Portfolio of a passionate developer{" "}
+            I am passionate developer{" "}
             <motion.span
               className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent font-bold"
               animate={{
@@ -634,7 +634,7 @@ export default function HomeClient() {
             >
               YASHRAJ SACHIN GHEMUD
             </motion.span>{" "}
-            who loves crafting beautiful web experiences with cinematic animations and cutting-edge technology.
+            and loves crafting beautiful website with animations and cutting-edge technology.
           </motion.p>
         </AnimatePresence>
 
